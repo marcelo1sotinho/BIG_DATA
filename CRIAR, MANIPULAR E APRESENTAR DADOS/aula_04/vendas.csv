@@ -1,0 +1,45 @@
+Produto;DataVenda;Categoria;Loja;Valor;QuantidadeVendida
+Televisao LED 55;2024-10-01;Eletronicos;SG;2500.0;30
+Smartphone X100;2024-09-20;Eletronicos;Niteroi;1500.0;45
+Laptop Gamer ZT400;2024-09-15;Eletronicos;Alcantara;4000.0;20
+Console de Videogame YZ;2024-09-05;Eletronicos;SG;1800.0;25
+Impressora Multifuncional A3;2024-09-22;Perifericos;Niteroi;800.0;15
+Teclado Mecanico RGB;2024-08-25;Perifericos;Alcantara;300.0;50
+Mouse Gamer RGB;2024-08-18;Perifericos;SG;150.0;70
+Monitor 27;2024-07-30;Eletronicos;Niteroi;1200.0;90
+Fone de Ouvido Sem Fio;2024-07-25;Acessorios;Alcantara;600.0;140
+Camera Digital 24MP;2024-07-20;Fotografia;SG;1500.0;35
+Drone Pro 4K;2024-06-15;Eletronicos;Niteroi;3000.0;10
+Smartwatch S3;2024-05-10;Acessorios;Alcantara;700.0;40
+Ventilador Portatil;2024-06-05;Eletrodomesticos;SG;200.0;110
+Aspirador de Po Vertical;2024-05-25;Eletrodomesticos;Niteroi;400.0;50
+Maquina de Cafe Automatica;2024-04-15;Eletrodomesticos;Alcantara;1000.0;20
+Secadora de Roupas;2024-03-10;Eletrodomesticos;SG;1800.0;25
+Lavadora de Roupas;2024-02-05;Eletrodomesticos;Niteroi;2000.0;15
+Refrigerador Inverse;2024-01-22;Eletrodomesticos;Alcantara;3500.0;5
+Fogao 5 Bocas;2024-01-10;Eletrodomesticos;SG;1200.0;30
+Ar Condicionado Split;2024-01-01;Eletrodomesticos;Niteroi;2500.0;40
+Maquina de Lavar Louca;2023-12-25;Eletrodomesticos;Alcantara;1600.0;10
+Batedeira Eletrica;2023-12-15;Eletrodomesticos;SG;300.0;60
+Comoda de Madeira;2023-11-30;Moveis;Niteroi;800.0;15
+Sofa 3 lugares;2023-11-10;Moveis;Alcantara;2500.0;8
+Mesa de Jantar 6 lugares;2023-10-01;Moveis;SG;1500.0;20
+Notebook Slim i5;2024-10-05;Eletronicos;Niteroi;3200.0;18
+Smartphone A55;2024-09-28;Eletronicos;SG;1800.0;50
+Monitor Curvo 32;2024-09-10;Eletronicos;Alcantara;2200.0;22
+Caixa de Som Bluetooth;2024-08-30;Acessorios;Niteroi;400.0;95
+Headset Gamer 7.1;2024-08-20;Perifericos;SG;500.0;60
+Webcam Full HD;2024-08-10;Perifericos;Alcantara;250.0;40
+HD Externo 1TB;2024-07-15;Perifericos;Niteroi;350.0;35
+Tripe para Camera;2024-07-01;Fotografia;SG;120.0;25
+Camera de Acao 4K;2024-06-20;Fotografia;Alcantara;900.0;12
+Smartband Fit 2;2024-06-10;Acessorios;Niteroi;300.0;80
+Liquidificador Turbo;2024-05-30;Eletrodomesticos;SG;250.0;65
+Air Fryer Digital;2024-05-15;Eletrodomesticos;Alcantara;850.0;45
+Micro-ondas Inox;2024-04-05;Eletrodomesticos;Niteroi;1000.0;25
+Fogao Cooktop 4 bocas;2024-03-20;Eletrodomesticos;SG;1100.0;20
+Lava-loucas Compacta;2024-02-25;Eletrodomesticos;Alcantara;1500.0;15
+Guarda-roupa 6 portas;2024-01-15;Moveis;Niteroi;1800.0;10
+Poltrona Reclinavel;2024-01-05;Moveis;SG;1200.0;12
+Mesa Escritorio;2023-12-18;Moveis;Alcantara;900.0;14
+Cadeira Gamer;2023-11-25;Moveis;Niteroi;1000.0;18
