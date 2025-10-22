@@ -42,6 +42,11 @@ try:
      print(f'Q1: {q1}')
      print(f'Q2: {q2}')
      print(f'Q3: {q3}')
+
+     maximo = np.max(array_estelionato)
+     minimo = np.min(array_estelionato)
+     amplitude_total = maximo - minimo
+
      
      df_estelionato_menores = df_estelionato[df_estelionato['estelionato'] < q1]
      df_estelionato_maiores = df_estelionato[df_estelionato['estelionato'] > q3]
@@ -147,15 +152,6 @@ try:
 
 
     plt.show()
-
-
-
-
-
-
-
-
-
 
 
 

@@ -1,0 +1,5 @@
+print('\nMEDIDAD DE TENDÊNCIA CENTRAL')
+    print(30*'=')
+    print(f'Média de Produtos Vendidos: {media_preco_vendido}')
+    print(f'Mediana de Produtos Vendidos: {mediana_preco_vendido}')
+    print(f'Distancia entre média e mediana: {mediana_preco_vendido}')
