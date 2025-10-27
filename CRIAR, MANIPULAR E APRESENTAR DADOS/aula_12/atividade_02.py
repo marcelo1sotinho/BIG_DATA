@@ -114,7 +114,7 @@ try:
     print(f'Distância Média e Mediana: {distancia}')
     print(f'Amplitude Total: {amplitude_total}')
     print(f'Desvio Padrão: {desvio_padrao:,.2f}')
-    print(f'Coeficiente de Variação: {desvio_padrao:,.2f}%')
+    print(f'Coeficiente de Variação: {coef_variacao:,.2f}%')
     print(f'Variancia: {variancia:.2f}')
     print(f'Distancia entre variancia e média: {distancia_var_media:.2f}')
 
@@ -124,16 +124,46 @@ except Exception as e:
     exit()
 
 try:
+    print('\nA média é não é uma medida confiável.'.upper())
+    print('='*45)
+    print(f'''Foi verificado através da distância entre a média e mediana (19%) que a distribuição tende a ser assimétrica moderada, a média (304,793.803) pode estar sendo influenciada por valores extremos. Por isso a mediana (255,463.500) é a melhor opção para representar o conjunto de dados, pois não sofre com influência de valores extremos.''')
+    print('\nProduto que se destaca (outlier).'.upper())
+    print('='*45)
+    print(df_produto_outliers_superiores)
+    print('''\nO ‘TENIS FITNESS MASCULINO PRETO LINHA 90’ performou muito acima dos demais. Sendo muito superior até nos produtos mais vendidos ''')
+    print('\nProdutos com maiores e menores vendas.'.upper())
+    print('='*45)
+    print('\nProdutos com menores vendas: ')
+    print(70*'-')
+    print(df_produto_menores.sort_values(by='Preco Vendido', ascending=True))
+    print('\nProdutos com maiores vendas:')
+    print(70*'-')
+    print(df_produto_maiores.sort_values(by='Preco Vendido', ascending=False))
+    print(f'\nOs menores produtos representam os 25% que ({q1:,.2f}) menos venderam.')
+    print(f'Os maiores produtos representam 75% que ({q3:,.2f}) mais venderam.')
+    print('\ndesvio padrão'.upper())
+    print('='*45)
+    print(f'''O conjunto de dados apresenta um alto desvio padrão ({desvio_padrao:,.2f}) podendo variar tanto para cima, quanto para baixo com relação a média({media_preco_vendido:,.2f}), sendo assim, os dados estão mais distantes da média e o conjuto é disperso e heterogêneo.''')
+
+
+
+except Exception as e:
+    print(f'Erro ao plotar {e}')
+
+
+
+try:
     plt.subplots(2,2,figsize=(16,10))
     plt.suptitle('Analise de Dados - Venda de Produtos')
 
     # Posição 1
     plt.subplot(2,2,1)
+    plt.title('Boxplot dos Dados')
     plt.boxplot(array_preco_vendido, vert=False, showmeans=True)
 
     # Posição 2
     plt.subplot(2,2,2)
-    plt.suptitle('Medidas Estatistica')
+    plt.title('Medidas Estatistica')
     plt.text(0.1, 0.9, f'Limite inferior: {limite_inferior}', fontsize=10)
     plt.text(0.1, 0.8, f'Q1: {q1}',fontsize=10)
     plt.text(0.1, 0.7, f'Mediana: {q2}',fontsize=10)

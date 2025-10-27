@@ -1,0 +1,1 @@
+assimétrica moderada
